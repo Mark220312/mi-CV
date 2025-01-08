@@ -14,10 +14,10 @@ function toggleTheme() {
 
 // Función para descargar CV
 function downloadCV() {
-    const cvUrl = './CV-Marco-Pinzon.pdf';
+    const cvUrl = './CV_MarcoPinzon.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'MiCV.pdf';
+    link.download = 'CV_MarcoPinzon.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
