@@ -51,6 +51,11 @@ body {
   color: var(--primary-color);
 }
 
+.idiomas {
+  margin-left: 50%;
+  position:absolute;
+}
+
 /* Estilos del Switch */
 .switch {
   position: relative;
