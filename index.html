@@ -3,14 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio Profesional</title>
-  <link rel="icon" type="image/png" href="/assets/favicon-C-nP6NZ4.png">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Marco Andrés Pinzón Gómez - Ingeniero de Sistemas especializado en desarrollo web, análisis de datos y ciberseguridad. Portafolio profesional con proyectos en React, Node.js y Python.">
+  <meta name="keywords" content="Ingeniero de Sistemas, Desarrollador Web, React, Node.js, Python, Portafolio, Marco Pinzón">
+  <meta name="author" content="Marco Andrés Pinzón Gómez">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marcopinzon.netlify.app/">
+  <meta property="og:title" content="Marco Pinzón - Ingeniero de Sistemas">
+  <meta property="og:description" content="Portafolio profesional de Marco Andrés Pinzón Gómez, Ingeniero de Sistemas">
+  <meta property="og:image" content="https://marcopinzon.netlify.app/assets/perfil.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://marcopinzon.netlify.app/">
+  <meta property="twitter:title" content="Marco Pinzón - Ingeniero de Sistemas">
+  <meta property="twitter:description" content="Portafolio profesional de Marco Andrés Pinzón Gómez">
+  <meta property="twitter:image" content="https://marcopinzon.netlify.app/assets/perfil.png">
+  
+  <title>Marco Pinzón - Ingeniero de Sistemas | Portafolio Profesional</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/favicon.png">
+  
+  <!-- Preconnect to external domains for better performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  
+  <!-- Fonts with display=swap for better performance -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <script type="module" crossorigin src="/assets/index-b4Z8zTkG.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DpaRdmVU.css">
+  
+  <!-- Font Awesome - Load asynchronously -->
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'; this.onload=null;">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
+  
+  <!-- Theme color -->
+  <meta name="theme-color" content="#2563eb">
+  
+  <!-- Inline critical CSS to prevent render blocking -->
+  <style>
+    /* Critical CSS - Inline styles for above-the-fold content */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #1f2937;
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+    
+    /* Navbar Critical Styles */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #e5e7eb;
+      z-index: 1000;
+      padding: 1rem 0;
+    }
+    
+    /* Header/Hero Section */
+.header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+  background-image: url('./assets/perfil_copia22.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 0;
+}
+
+  </style>
+  <script type="module" crossorigin src="/assets/index-ClMbJE4c.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CyTF5yUA.css">
 </head>
 <body>
-  <div id="root"></div>
+  <noscript>
+    <div style="text-align: center; padding: 2rem; font-family: sans-serif;">
+      Este sitio requiere JavaScript para funcionar correctamente. Por favor, activa JavaScript en tu navegador.
+    </div>
+  </noscript>
+  
+  <div id="root"></div>
+  
 </body>
 </html>
